@@ -1,0 +1,23 @@
+.image-layout img {
+  width: 40%;
+  height: auto;
+}
+.image-layout .next-btn {
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 100px;
+  border: none;
+  background-color: #087f5b;
+  color: #fff;
+  font-weight: 500;
+}
+.image-layout .next-btn:hover {
+  background-color: #099268;
+}
+
+.hidden {
+  display: none;
+}
+.image-layout {
+  padding-top: 20px;
+}

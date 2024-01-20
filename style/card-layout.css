@@ -1,0 +1,93 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+.card-layout .card {
+  width: 350px;
+  background-color: rgb(8, 15, 73);
+  gap: 10px;
+  border-radius: 6px;
+  /* height: 520px; */
+}
+.grid-class {
+  display: grid;
+  grid-template-columns: repeat(350px, 3);
+  /* grid-template-rows: repeat(1fr, 2); */
+}
+.flex-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card-layout {
+  color: #fff;
+  /* gap: 100px; */
+  align-items: flex-start;
+  gap: 40px;
+  margin: 15px 0 0 0;
+}
+.card-layout:first-child {
+  margin-top: 50px;
+}
+
+.card-layout .card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.card-layout .card .author-details img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+.card-layout .card .author-details {
+  justify-content: flex-start;
+  gap: 25px;
+}
+.card-layout .card .author-details .author-name p,
+.card-layout .card .author-details .author-birth p {
+  font-size: 12px;
+  color: #868e96;
+}
+.card-layout .card .author-details .author-name h1,
+.card-layout .card .author-details .author-birth h1 {
+  font-size: 14px;
+}
+.card-layout .card .author-details .author-name,
+.card-layout .card .author-details .author-birth {
+  align-items: flex-start;
+  gap: 4px;
+}
+.card-layout .card a {
+  border: none;
+  color: #fff;
+  background-color: #087f5b;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 30px;
+  border-radius: 100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card-layout .card a:hover {
+  background-color: #099268;
+}
+
+footer {
+  padding-top: 30px;
+  color: #868e96;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
